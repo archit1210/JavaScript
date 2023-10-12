@@ -1,6 +1,6 @@
-function sayMyName(){
-    console.log("Archit");
-}
+// function sayMyName(){
+//     console.log("Archit");
+// }
 
 // sayMyName()
 
@@ -14,9 +14,33 @@ function sayMyName(){
 // const answer = add(3,4)
 // console.log(answer)
 
-function loginUser(username){
-    return `${username} just logged in`
+// function loginUser(username){
+//     return `${username} just logged in`
+// }
+
+// const user = loginUser("Archit")
+// console.log(user);
+
+
+// function calculateCartPrice(...num1){
+//     return num1
+// }
+
+// console.log(calculateCartPrice(200,200,300)); // rest operator in js
+// const user = {
+//     name : "Archit",
+//     price : 199
+// }
+// function handleObject(anyObject){
+//     console.log(`User name is ${anyObject.name} and price is ${anyObject.price}`);
+// }
+
+// handleObject(user)
+
+const arr = [100,200,300,400]
+
+function returnValue(arr){
+    return arr[1]
 }
 
-const user = loginUser("Archit")
-console.log(user);
+console.log(returnValue(arr));
