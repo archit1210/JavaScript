@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+#grey{
+    background-color: gray;
+}
+
+#white{
+    background-color: white;
+}
+
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#purple{
+    background-color: purple;
+}
